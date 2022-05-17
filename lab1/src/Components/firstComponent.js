@@ -27,7 +27,7 @@ export default class FirstComponent extends Component{
                                 this.setState({txt:e.target.value})
                             }}
                         />
-                        </div>
+                    </div>
                     <div className="col-12 my-4 text-center">
                         <h4>{this.state.txt}</h4>
                     </div>

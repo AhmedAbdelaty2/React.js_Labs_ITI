@@ -38,7 +38,8 @@ export default class SecondComponent extends Component{
             this.i++;
             this.setState({img:this.imgs[this.i]});
         }else{
-            clearInterval(this.slideInterval);
+            this.i = 0;
+            this.setState({img:this.imgs[this.i]});
         }
     }
 
